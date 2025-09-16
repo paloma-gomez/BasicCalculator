@@ -2,7 +2,13 @@ package com.example;
 
 public class Main {
     public static void main(String[] args) {
-      //to do
+        // Demonstrate the functionality of the calculator
+        int a = 10;
+        int b = 5;  
+        System.out.println("Addition: " + add(a, b));
+        System.out.println("Subtraction: " + subtract(a, b));
+        System.out.println("Multiplication: " + multiply(a, b));
+        System.out.println("Division: " + divide(a, b));
     }
    //methods for basic arithmetic operations
     public static int add(int a, int b) {
